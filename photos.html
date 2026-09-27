@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Photos — Moss on Concrete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <main class="site">
+
+        <header>
+            <h1>MOSS ON CONCRETE</h1>
+            <p>2026 — ITALY</p>
+
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="releases.html">RELEASES</a>
+                <a href="archive.html">ARCHIVE</a>
+                <a href="live.html">LIVE</a>
+                <a href="contact.html">CONTACT</a>
+            </nav>
+        </header>
+
+
+        <section class="photos">
+
+            <div class="archive-header">
+                <span>ARCHIVE / 01</span>
+                <span>PHOTOS</span>
+            </div>
+
+            <h2>PHOTOGRAPHS</h2>
+
+            <p class="archive-intro">
+                Rehearsals, shows, places and other fragments.
+            </p>
+            
+    <div class="photo-grid">
+
+
+
+<div class="photo-item">
+
+    <img
+    src="images/photo1.jpg"
+    alt="Moss on Concrete"
+    class="lightbox-image"
+>
+
+    <p>REHEARSAL — 2026</p>
+
+</div>
+
+<div class="photo-item">
+
+    <img
+    src="images/photo2.jpg"
+    alt="Moss on Concrete"
+    class="lightbox-image"
+>
+    <p>REHEARSAL — 2026</p>
+
+</div>
+
+<div class="photo-item">
+
+  <img
+    src="images/photo3.jpg"
+    alt="Moss on Concrete"
+    class="lightbox-image"
+>
+
+    <p>REHEARSAL — 2026</p>
+
+</div>
+
+<div class="photo-item">
+
+  <img
+    src="images/photo4.jpg"
+    alt="Moss on Concrete"
+    class="lightbox-image"
+>
+
+    <p>REHEARSAL — 2026</p>
+
+</div>
+
+<div class="photo-item">
+
+  <img
+    src="images/photo5.jpg"
+    alt="Moss on Concrete"
+    class="lightbox-image"
+>
+
+    <p>REHEARSAL — 2026</p>
+
+</div>
+
+<div class="photo-item">
+
+  <img
+    src="images/photo6.jpg"
+    alt="Moss on Concrete"
+    class="lightbox-image"
+>
+
+    <p>REHEARSAL — 2026</p>
+
+</div>
+
+<div class="photo-item">
+
+  <img
+    src="images/photo7.jpg"
+    alt="Moss on Concrete"
+    class="lightbox-image"
+>
+
+    <p>REHEARSAL — 2026</p>
+
+</div>
+
+<div class="photo-item">
+
+  <img
+    src="images/photo8.jpg"
+    alt="Moss on Concrete"
+    class="lightbox-image"
+>
+
+    <p>REHEARSAL — 2026</p>
+
+</div>
+
+</div>
+
+        </section>
+
+
+        <footer>
+            <p>MOSS ON CONCRETE — 2026</p>
+        </footer>
+
+    </main>
+<div class="lightbox">
+    <img src="" alt="">
+</div>
+
+<script>
+    const images = document.querySelectorAll(".lightbox-image");
+    const lightbox = document.querySelector(".lightbox");
+    const lightboxImage = lightbox.querySelector("img");
+
+    images.forEach(image => {
+        image.addEventListener("click", () => {
+            lightboxImage.src = image.src;
+            lightbox.style.display = "flex";
+        });
+    });
+
+    lightbox.addEventListener("click", () => {
+        lightbox.style.display = "none";
+    });
+</script>
+</body>
+</html>
